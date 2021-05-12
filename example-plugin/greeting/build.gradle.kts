@@ -2,6 +2,7 @@ plugins {
     id("java-gradle-plugin")
     id("maven-publish")
     id("com.gradle.plugin-publish") version "0.13.0" // need upcoming release to actually being able to publish to Plugin Portal
+    kotlin("jvm") version "1.4.32"
 }
 
 repositories {
